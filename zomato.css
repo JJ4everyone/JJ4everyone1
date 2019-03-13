@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+
+.innerBlock
+{
+background-image: url("https://i.pinimg.com/originals/22/00/7d/22007d89fdb6b178488a2e1024a90fa6.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+margin:2px;
+border: 2px solid red;
+opacity: .9;
+
+}
+.nav{
+	position: sticky;
+	top:0%;
+	left:0%;
+	border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    
+		
+}
+
+.search option{
+	border:none;
+}
+.search input{
+	font-size: 20px;
+	border: none;
+	font-family: 'PT Serif', serif;
+}
+.logIn{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: flex-end;
+    margin: 2px;
+    padding: 2px;
+	position:relative;
+	border: 2px solid black;
+    width: 40%;
+}
+.search{
+	
+background-color: white;
+   
+}
+i{
+     padding-left: 2px;
+   	
+    background-color: white;
+}
+.getApp{display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+    margin: 2px;
+    padding: 2px;
+	border: 2px solid black;
+    width:40%;
+}
+
+.para{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    background-color: white;
+	font-size: 3.5vw; 
+	border: 2px solid white;
+    color: red;
+    font-family: 'Sniglet', cursive;
+    
+    opacity: .7;
+    font
+}
+.logo{
+	border: 2px solid white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    margin:20px 0px;
+}
+.dropdown{
+	border: 2px solid white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    margin:2%;
+    padding: 3px;
+    position: relative;
+}
+input{
+	
+    padding:2px;
+    
+}
+ 
+{
+	border:2px solid red;
+	width: 60%;
+	margin:2px;
+	padding :2px;
+    position: relative;
+} 
+.grid{
+	border:2px solid red;
+	margin:2px;
+	padding :2px;
+	width: 95%;
+}
+
+
+
+.lowerBlock1{
+  width:55%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border:2px solid red;
+  margin:2px;
+	padding :2px;
+}
+
+.aboutGrid{
+	display: flex;
+	flex-wrap: wrap;
+	
+	border:2px solid red;
+	margin:2px;
+	padding :2px;
+	width: 45%;
+}
+.aboutGridimage{
+	width:130px;
+	height: 150px;
+	margin:2px;
+	padding :2px;
+}
+.text{
+	border:2px solid red;
+	width: 50%;
+	padding: 1px;
+	margin:2px;
+
+}
+
+.lowerBlock{
+	border:2px solid red;
+    margin: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.lowerBlock2{
+padding: 2px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+border:2px solid red;
+}
+
+h2{
+	border:2px solid red;
+	width:100%;
+}
+
+.inputLocation{
+	border:2px solid red;
+}
+.location{
+border:2px solid red;
+}
+
+.location input{
+	width: 98%;
+	font-family:italic;
+	font-size: 20px;
+	font-weight: medium;
+	border-collapse: collapse;
+	margin-top: 3px;
+    border-color: white;
+}
+
+
+ .lowerBlock2 p{
+	font-size: 25px;
+    font-family:georgia;
+    border:2px solid red;
+    width: 100%;
+}
+label{
+	font-size: 20px;
+	font-family: georgia;
+}
+
+
+@media screen and (max-width: 600px)
+{
+	.logIn,.getApp
+	{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width:100%;
+	}
+.dropdown{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin:2px 0px;
+	height: 30px;
+}
+option{
+	font-size: 25px;
+}
+.input{
+	width: 100%;
+	padding: 2px;
+
+}
+
+ .lowerBlock1{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around;
+ }
+
+
+
+ .aboutGrid{
+	width: 100%;
+ }
+}
